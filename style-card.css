@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.container-card {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0; 
+    width: 350px; 
+    background-color: #c5c0c0
+}
+
+.container-header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container-encabezado {    
+    display: flex;
+    width: 350px;
+    margin: 0;
+}
+.container-encabezado h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-logo img { 
+    width: 50px;
+    height: 50px;
+    object-fit: contain; 
+    background-color: transparent;
+}
+
+.container-cuerpo{
+    display: flex;
+    justify-content: center; 
+}
+
+.card-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    
+}
+
+.container-boton{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 16px;
+}   
+
+.container-boton button {
+    background-color: #878484;
+    color: #0a0a0a;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;    
+}
